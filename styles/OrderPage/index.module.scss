@@ -1,0 +1,33 @@
+.order__delivery__label {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .order__delivery__label input[type="radio"] {
+    display: none;
+  }
+  
+  .order__delivery__label span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order__delivery__label input[type="radio"]:checked + span {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .order__delivery__text {
+    margin-top: 10px;
+  }
+  
+  .order__delivery__text input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
